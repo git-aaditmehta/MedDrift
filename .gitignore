@@ -1,0 +1,21 @@
+# Environment
+venv/
+.env
+
+# Raw data - too large, publicly available from FDA
+data/raw/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

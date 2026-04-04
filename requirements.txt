@@ -1,0 +1,22 @@
+# Data Download & Extraction
+requests==2.31.0          # HTTP requests to download FAERS ZIPs from FDA website
+zipfile36==0.1.3          # extract contents of downloaded ZIP files
+
+# Data Manipulation
+pandas==2.2.2
+numpy==1.26.4           # numerical operations, array calculations
+
+# Database
+mysql-connector-python==8.1.0   # connects Python to MySQL
+sqlalchemy==2.0.20              # ORM layer — write cleaner database code
+
+# Statistical Analysis
+scipy==1.13.1             # chi-square test, statistical functions
+
+# Visualization
+matplotlib==3.8.0         # CUSUM and EWMA control charts
+seaborn==0.12.2           # cleaner statistical plots for EDA
+
+# Utility
+tqdm==4.66.1              # progress bars for long ETL runs
+python-dotenv==1.0.0      # load sensitive config from .env file
