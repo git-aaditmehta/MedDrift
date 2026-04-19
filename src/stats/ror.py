@@ -18,33 +18,24 @@ def get_connection():
 
 def fetch_drug_reaction_counts(target_drugs: list, peer_drugs: list = None) -> pd.DataFrame:
     """
-    Fetches drug-reaction counts.
-    target_drugs: drugs we want signals for
-    peer_drugs: comparison class (denominator). If None, uses full database.
+    Fetches drug-reaction counts from materialized view.
     """
-    # conn = get_connection()
     engine = get_connection()
     all_drugs = list(set(target_drugs + (peer_drugs or [])))
-    placeholders = ', '.join(['%s'] * len(all_drugs))
 
+    # MySQL connector needs %(name)s style parameters
+    placeholders = ', '.join([f'%(drug_{i})s' for i in range(len(all_drugs))])
     query = f"""
-        SELECT 
-            d.drug_name,
-            r.reaction,
-            COUNT(*) as pair_count
-        FROM drug d
-        JOIN reac r ON d.primaryid = r.primaryid
-        WHERE d.drug_name IN ({placeholders})
-        AND r.reaction IS NOT NULL
-        GROUP BY d.drug_name, r.reaction
-        HAVING COUNT(*) >= %s
+        SELECT drug_name, reaction, pair_count
+        FROM drug_reac_summary
+        WHERE drug_name IN ({placeholders})
     """
-    params = all_drugs + [MIN_REPORT_COUNT]
+
+    params = {f'drug_{i}': drug for i, drug in enumerate(all_drugs)}
 
     logger.info(f"Fetching pairs for {len(all_drugs)} drugs...")
     with engine.connect() as conn:
         df = pd.read_sql(query, conn, params=params)
-    # conn.close()
 
     logger.info(f"Fetched {len(df)} drug-reaction pairs")
     return df
@@ -105,11 +96,9 @@ def calculate_ror(df: pd.DataFrame) -> pd.DataFrame:
         (df['p_value'] <= P_VALUE_THRESHOLD) &
         (df['A'] >= MIN_REPORT_COUNT)
     )
-
-    logger.info(f"Columns after calculate_ror: {list(df.columns)}")
     
     df['ROR'] = df['ROR'].round(2)
-    df['p_value'] = df['p_value'].round(4)
+    df['p_value'] = df['p_value'].apply(lambda x: float(f'{x:.2e}'))
     logger.info(f"Columns after calculate_ror: {list(df.columns)}")
     return df.sort_values('ROR', ascending=False)
 

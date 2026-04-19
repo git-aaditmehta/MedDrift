@@ -1,0 +1,544 @@
+drug_name,reaction,pair_count,ROR,p_value
+humira,Temperature regulation disorder,2186,258.56,0.0
+humira,Injection site papule,2311,120.78,0.0
+humira,Adverse food reaction,1425,64.91,0.0
+humira,Device issue,18620,51.33,0.0
+humira,Medical device implantation,502,49.76,0.0
+humira,Vaccination site pain,635,44.58,0.0
+humira,Bone deformity,366,33.79,0.0
+humira,Catheter placement,125,33.7,2.1e-144
+humira,Immunisation reaction,802,31.8,0.0
+humira,Degenerative bone disease,312,31.38,0.0
+humira,Cartilage atrophy,491,30.93,0.0
+humira,Optic nerve injury,114,29.55,1.07e-127
+humira,Injection site injury,929,29.54,0.0
+humira,Antibiotic therapy,142,29.0,3.94e-158
+humira,Foetal death,2039,28.46,0.0
+humira,Tenoplasty,117,28.16,2.01e-129
+humira,Ovarian failure,131,27.59,4.86e-144
+humira,Lung perforation,122,25.69,1.4e-131
+humira,Abdominal neoplasm,95,25.61,1.62e-102
+humira,Wrong technique in product usage process,13718,24.94,0.0
+humira,Postoperative thrombosis,150,24.66,1.1e-159
+humira,Liquid product physical issue,445,24.58,0.0
+humira,Therapy interrupted,9919,24.46,0.0
+humira,Injury corneal,101,24.31,2.62e-107
+humira,Glycosylated haemoglobin abnormal,104,24.17,2.77e-110
+humira,Oophorectomy,94,23.46,7.44e-99
+humira,Device use error,729,22.75,0.0
+humira,Allergy to vaccine,215,22.29,1.67e-221
+humira,Vertebral osteophyte,111,22.0,2.92e-114
+humira,Fat tissue increased,130,21.37,2.07e-132
+humira,Bone operation,95,20.65,7.41e-96
+humira,Haemorrhagic stroke,107,20.6,8.78e-108
+humira,Heart valve replacement,127,19.45,3.16e-125
+humira,Ammonia increased,94,19.2,1.91e-92
+humira,Orthopaedic procedure,71,19.14,6.33e-70
+humira,Gastric neoplasm,78,18.77,3.27e-76
+humira,Surgical failure,693,18.54,0.0
+humira,Contrast media allergy,531,18.17,0.0
+humira,Retinal oedema,99,18.03,4.43e-95
+humira,Cervical radiculopathy,139,17.68,3.85e-132
+humira,Skull fracture,95,17.3,8.09e-90
+humira,Impaired self-care,503,17.3,0.0
+humira,Rehabilitation therapy,612,17.19,0.0
+humira,Injection site indentation,343,17.0,0.0
+humira,Allergic oedema,222,17.0,2.83e-207
+humira,Injection site haemorrhage,12091,16.39,0.0
+humira,Limb asymmetry,80,16.34,5.07e-74
+humira,Pelvic floor hernia,82,16.25,1.08e-75
+humira,Deafness bilateral,99,15.89,2.39e-90
+humira,Small intestinal haemorrhage,98,15.73,4.67e-89
+humira,Protein total increased,151,15.66,1.69e-136
+humira,Cytogenetic abnormality,58,15.64,6.93e-53
+humira,Urinary bladder haemorrhage,60,15.55,1.46e-54
+humira,Gastric perforation,143,15.54,6.5e-129
+humira,Product colour issue,76,15.52,7.43e-69
+humira,Medical procedure,243,15.31,6.38e-217
+humira,Injection site infection,109,14.99,6.41e-97
+humira,Medical device pain,212,14.88,5.02e-187
+humira,Seroma,174,14.84,1.7e-153
+humira,Chemotherapy,413,14.65,0.0
+humira,Sweat gland infection,65,14.6,1.94e-57
+humira,Protein total decreased,161,14.28,1.38e-139
+humira,Spinal decompression,82,14.17,2.84e-71
+humira,Post procedural pneumonia,67,14.11,2.89e-58
+humira,Antiphospholipid syndrome,194,14.06,8.66e-167
+humira,Hidradenitis,10026,13.8,0.0
+humira,Corneal transplant,100,13.75,1.58e-85
+humira,Neck surgery,525,13.66,0.0
+humira,Patient-device incompatibility,52,13.48,2e-44
+humira,Gallbladder enlargement,118,13.48,8.61e-100
+humira,Walking disability,117,13.36,1.52e-98
+humira,Radiotherapy,63,12.87,1.84e-52
+humira,Spinal deformity,303,12.68,4.83e-247
+humira,Bone loss,220,12.67,1.38e-179
+humira,Autonomic nervous system imbalance,86,12.6,1.44e-70
+humira,Intraocular pressure decreased,74,12.47,1.63e-60
+humira,Histone antibody positive,46,12.4,8.34e-38
+humira,Disease complication,106,12.32,9.13e-86
+humira,Self-consciousness,510,12.28,0.0
+humira,Calcinosis,375,12.27,3.23e-300
+humira,Respiratory arrest,176,12.23,3.1e-141
+humira,Procedural site reaction,58,12.22,4.17e-47
+humira,Thyroid function test abnormal,123,12.19,7.73e-99
+humira,Hospice care,217,12.19,1.38e-173
+humira,Bundle branch block left,182,12.14,1.74e-145
+humira,Heart valve stenosis,45,12.13,1.38e-36
+humira,Gastrointestinal tube insertion,61,12.09,3.06e-49
+humira,Stress cardiomyopathy,162,12.0,8.93e-129
+humira,Glomerular filtration rate abnormal,64,11.98,2.24e-51
+humira,Bone neoplasm,71,11.96,7.35e-57
+humira,Unevaluable event,10048,11.73,0.0
+humira,Bone infarction,52,11.68,2.46e-41
+humira,Hepatitis B,170,11.57,1.8e-132
+humira,Asphyxia,396,11.55,7.99e-307
+humira,Arthroscopy,65,11.53,4.18e-51
+humira,Oxygen therapy,46,11.48,2.56e-36
+humira,Benign neoplasm of skin,47,11.31,8.53e-37
+humira,Procedural failure,47,11.31,8.53e-37
+humira,Triple negative breast cancer,45,11.23,3.99e-35
+humira,Posture abnormal,55,11.23,9.28e-43
+humira,Urinary bladder suspension,79,11.09,1.26e-60
+humira,Gallbladder rupture,123,11.05,1.08e-93
+humira,Ocular procedural complication,85,11.02,6.5e-65
+humira,Enterocolitis haemorrhagic,57,10.98,1.01e-43
+humira,Nerve block,430,10.94,0.0
+humira,Osteomalacia,60,10.93,7.22e-46
+humira,Mucosal discolouration,47,10.92,4.32e-36
+humira,Limb traumatic amputation,42,10.89,2.84e-32
+humira,Dialysis,465,10.84,0.0
+humira,Device difficult to use,1034,10.84,0.0
+humira,Parenteral nutrition,45,10.83,2e-34
+humira,Blood magnesium abnormal,61,10.82,2.37e-46
+humira,Intestinal mucosal tear,46,10.69,6.48e-35
+humira,Influenza virus test positive,39,10.51,1.94e-29
+humira,Chondropathy,752,10.49,0.0
+humira,Chorioretinitis,42,10.48,1.36e-31
+humira,Abnormal clotting factor,48,10.44,6.72e-36
+humira,Therapy cessation,1348,10.34,0.0
+humira,Obliterative bronchiolitis,270,10.28,7.04e-196
+humira,Biliary dilatation,67,10.26,2.7e-49
+humira,Injection site discharge,1212,10.25,0.0
+humira,Renal haemorrhage,47,10.22,9.71e-35
+humira,Intra-abdominal haematoma,50,10.21,6.84e-37
+humira,Lordosis,42,10.11,6.23e-31
+humira,Pneumonia staphylococcal,39,10.11,8.89e-29
+humira,Gastrointestinal ulcer haemorrhage,66,10.11,3.87e-48
+humira,Macular oedema,301,10.09,8.7e-216
+humira,Aortic dilatation,97,10.06,4.19e-70
+humira,Post procedural swelling,512,9.94,0.0
+humira,Procedural complication,804,9.87,0.0
+humira,Mycoplasma infection,80,9.8,4.41e-57
+humira,Pituitary tumour,55,9.75,2.12e-39
+humira,Osteotomy,52,9.73,2.99e-37
+humira,Pancreatic steatosis,85,9.71,3.12e-60
+humira,Anogenital warts,56,9.68,6.63e-40
+humira,Retinal disorder,196,9.64,5.86e-137
+humira,Bronchial obstruction,37,9.59,1.71e-26
+humira,Corneal scar,41,9.53,3.71e-29
+humira,Arterial disorder,82,9.53,1.85e-57
+humira,Incision site abscess,38,9.48,5.26e-27
+humira,Adhesion,496,9.42,0.0
+humira,Uterine dilation and curettage,99,9.4,1.44e-68
+humira,Hypovitaminosis,117,9.39,8.53e-81
+humira,Skin indentation,79,9.34,1.07e-54
+humira,Macular degeneration,4008,9.33,0.0
+humira,Mumps,55,9.27,3.69e-38
+humira,Injury associated with device,1598,9.27,0.0
+humira,Endotracheal intubation,37,9.24,6.97e-26
+humira,Endoscopy,41,9.21,1.51e-28
+humira,Vascular dementia,68,9.17,1.22e-46
+humira,Tonsillolith,35,9.07,2.98e-24
+humira,Therapy change,157,9.04,1.87e-105
+humira,Neuritis,129,8.96,2.54e-86
+humira,Blood calcium abnormal,58,8.88,4.13e-39
+humira,Lip haemorrhage,81,8.8,6.22e-54
+humira,Monoparesis,116,8.78,1.1e-76
+humira,Hepatic neoplasm,134,8.68,9.89e-88
+humira,Genital rash,76,8.68,3.48e-50
+humira,Vaccination complication,124,8.62,7.94e-81
+humira,Pruritus allergic,687,8.62,0.0
+humira,Lymphadenopathy mediastinal,106,8.61,3.37e-69
+humira,Intensive care,70,8.58,6.38e-46
+humira,Renal surgery,66,8.55,2.86e-43
+humira,Traumatic haematoma,33,8.55,4.67e-22
+humira,Haemarthrosis,161,8.54,5.11e-104
+humira,Granulomatous dermatitis,58,8.5,5.77e-38
+humira,Paranasal sinus hypersecretion,461,8.47,1.1e-293
+humira,Gastric bypass,254,8.43,6.14e-162
+humira,Corrective lens user,75,8.42,1.57e-48
+humira,Musculoskeletal deformity,292,8.41,1.26e-185
+humira,Purulence,317,8.38,7.17e-201
+humira,Rectal ulcer haemorrhage,31,8.36,1.9e-20
+humira,Procedural haemorrhage,253,8.32,9.66e-160
+humira,Radiculopathy,1795,8.29,0.0
+humira,Meralgia paraesthetica,54,8.27,9.27e-35
+humira,Oesophageal achalasia,49,8.26,1.39e-31
+humira,Dental care,173,8.15,4.71e-108
+humira,Lymphoedema,530,8.1,0.0
+humira,Vertebral foraminal stenosis,102,8.09,8.82e-64
+humira,Coccidioidomycosis,98,8.05,3.85e-61
+humira,Loose body in joint,190,8.05,1.67e-117
+humira,Marrow hyperplasia,43,8.05,2.45e-27
+humira,Scrotal pain,37,8.04,1.25e-23
+humira,Mineral metabolism disorder,62,8.04,5.65e-39
+humira,Skin discharge,204,8.04,6.37e-126
+humira,Atrioventricular block second degree,33,7.94,5.62e-21
+humira,Diabetic foot,81,7.91,4.63e-50
+humira,Osteosarcoma,93,7.74,2.11e-56
+humira,Carbon dioxide abnormal,86,7.73,3.49e-52
+humira,Cardiac fibrillation,47,7.73,6.11e-29
+humira,Computerised tomogram thorax abnormal,32,7.7,6.26e-20
+humira,Adenocarcinoma,56,7.7,3.11e-34
+humira,Larynx irritation,32,7.7,6.26e-20
+humira,Thyroid hormones increased,49,7.68,5.28e-30
+humira,Cardioversion,58,7.66,2.7e-35
+humira,Post-traumatic stress disorder,465,7.66,2.59e-275
+humira,Nonspecific reaction,109,7.65,2.23e-65
+humira,Aortic dissection,34,7.64,5.34e-21
+humira,Gastrectomy,133,7.6,4.27e-79
+humira,Narcolepsy,36,7.58,4.56e-22
+humira,Portal hypertensive gastropathy,45,7.58,2.27e-27
+humira,Ischaemia,45,7.58,2.27e-27
+humira,Spinal instability,101,7.56,3.97e-60
+humira,Hypermobility syndrome,95,7.53,1.92e-56
+humira,Nystagmus,29,7.52,7.98e-18
+humira,Cyclic vomiting syndrome,30,7.49,2.32e-18
+humira,Depression suicidal,64,7.44,5.51e-38
+humira,Brain neoplasm,607,7.44,0.0
+humira,Blood parathyroid hormone increased,33,7.41,5.72e-20
+humira,Vaginal flatulence,1485,7.4,0.0
+humira,Injection site nerve damage,34,7.39,1.67e-20
+humira,Cardiac tamponade,176,7.37,7.11e-102
+humira,Venous thrombosis limb,198,7.37,1.6e-114
+humira,Cystoid macular oedema,91,7.3,7.73e-53
+humira,Mean platelet volume decreased,266,7.29,4.91e-152
+humira,Ankle operation,717,7.29,0.0
+humira,Uterine malposition,28,7.26,8.37e-17
+humira,Rectal dysplasia,28,7.26,8.37e-17
+humira,Gingival recession,209,7.26,2.24e-119
+humira,Vocal cord disorder,85,7.25,3.67e-49
+humira,Acanthosis,29,7.24,2.43e-17
+humira,Apparent death,1082,7.23,0.0
+humira,Biopsy,31,7.2,2.04e-18
+humira,Drug delivery system malfunction,49,7.18,1.57e-28
+humira,Lumbar radiculopathy,67,7.17,1.29e-38
+humira,Shoulder arthroplasty,892,7.17,0.0
+humira,Chronic idiopathic pain syndrome,243,7.15,6.15e-137
+humira,Incision site haemorrhage,53,7.14,1.14e-30
+humira,Device material issue,78,7.1,1.77e-44
+humira,Tachyarrhythmia,122,7.09,7.54e-69
+humira,Smoke sensitivity,43,7.07,7.51e-25
+humira,Artificial crown procedure,131,7.06,1.23e-73
+humira,Intestinal sepsis,536,7.06,3.57e-297
+humira,Drug use disorder,1113,7.04,0.0
+humira,Toe amputation,394,7.04,1.64e-218
+humira,Cardiac ventricular thrombosis,27,7.0,8.45e-16
+humira,Peripheral nerve injury,169,6.99,7.61e-94
+humira,Fibroadenoma of breast,84,6.99,3.29e-47
+humira,Bleeding time prolonged,28,6.99,2.45e-16
+humira,Balanoposthitis,29,6.98,7.08e-17
+humira,Gastric pH decreased,29,6.98,7.08e-17
+humira,Leiomyoma,29,6.98,7.08e-17
+humira,Adenomyosis,30,6.97,2.05e-17
+humira,Atlantoaxial instability,60,6.97,6.1e-34
+humira,Cardiac ablation,160,6.96,1.36e-88
+humira,Anticipatory anxiety,795,6.88,0.0
+humira,Deafness transitory,470,6.87,3.77e-255
+humira,Suture related complication,316,6.87,5.68e-172
+humira,Breast cyst,328,6.87,2.39e-178
+humira,Intervertebral disc compression,249,6.85,1.88e-135
+humira,Megacolon,72,6.83,6.84e-40
+humira,Rubber sensitivity,163,6.82,8.19e-89
+humira,Anuria,90,6.82,1.72e-49
+humira,Blood cholesterol,421,6.76,1.75e-225
+humira,Hepatocellular carcinoma,66,6.74,3.07e-36
+humira,Lung operation,47,6.74,4.4e-26
+humira,Contraindication to vaccination,52,6.74,9.29e-29
+humira,Hypotonia,165,6.74,5.65e-89
+humira,Joint lock,864,6.66,0.0
+humira,Device breakage,495,6.66,1.17e-261
+humira,Mucosal ulceration,121,6.63,1.14e-64
+humira,Neovascular age-related macular degeneration,124,6.63,2.88e-66
+humira,Tumour necrosis,48,6.6,3.52e-26
+humira,Brain operation,110,6.56,2.24e-58
+humira,Breast neoplasm,72,6.56,1.46e-38
+humira,Bronchial hyperreactivity,96,6.47,1.72e-50
+humira,Genital abscess,71,6.47,1.34e-37
+humira,Fracture delayed union,142,6.42,1.11e-73
+humira,Pulmonary thrombosis,2165,6.42,0.0
+humira,Drooling,83,6.36,3.8e-43
+humira,Colonoscopy,129,6.35,2.39e-66
+humira,Cardiomegaly,326,6.35,7.33e-166
+humira,Mycobacterium tuberculosis complex test positive,422,6.33,7.89e-214
+humira,Restrictive pulmonary disease,31,6.33,1.19e-16
+humira,Physical disability,434,6.32,2.37e-219
+humira,Diabetic eye disease,30,6.32,4.08e-16
+humira,Coronary arterial stent insertion,337,6.31,1.95e-170
+humira,Neuroma,58,6.3,3e-30
+humira,Ovarian neoplasm,87,6.3,7.4e-45
+humira,Adenoma benign,58,6.3,3e-30
+humira,Neurogenic bladder,56,6.29,3.5e-29
+humira,Post procedural inflammation,350,6.29,1.71e-176
+humira,Laryngeal disorder,775,6.24,0.0
+humira,Fungal pharyngitis,62,6.24,5.74e-32
+humira,Optic nerve disorder,37,6.23,1.87e-19
+humira,Excessive skin,83,6.22,2.56e-42
+humira,Sports injury,48,6.22,6.43e-25
+humira,Investigation abnormal,487,6.2,4.84e-242
+humira,Electrolyte depletion,81,6.2,2.96e-41
+humira,Angiosarcoma,32,6.16,8.82e-17
+humira,Blood glucose abnormal,478,6.16,4.74e-236
+humira,Catheterisation cardiac,221,6.15,8.72e-110
+humira,Blood folate decreased,30,6.13,1.03e-15
+humira,CNS ventriculitis,29,6.11,3.54e-15
+humira,Cerebral disorder,390,6.11,1.59e-191
+humira,Prerenal failure,76,6.1,3.39e-38
+humira,Arteriospasm coronary,28,6.09,1.21e-14
+humira,Cervical vertebral fracture,441,6.05,1.81e-214
+humira,Immunoglobulins increased,35,6.05,5.49e-18
+humira,Cytology abnormal,51,6.03,1.03e-25
+humira,Pelvic mass,34,6.03,1.87e-17
+humira,Pneumoperitoneum,25,6.02,4.88e-13
+humira,Biliary tract disorder,79,5.98,5.38e-39
+humira,Thyroxine decreased,63,5.98,2.67e-31
+humira,Breast ulceration,29,5.92,8.67e-15
+humira,Complex regional pain syndrome,64,5.91,1.93e-31
+humira,Delivery,28,5.9,2.96e-14
+humira,Tumour marker increased,41,5.88,2.1e-20
+humira,Cartilage injury,753,5.87,0.0
+humira,Large granular lymphocytosis,40,5.86,7.11e-20
+humira,Large intestinal ulcer haemorrhage,32,5.83,5.25e-16
+humira,Retinal injury,31,5.8,1.78e-15
+humira,Intestinal fistula infection,49,5.79,6.92e-24
+humira,Hepatitis A,30,5.78,6.06e-15
+humira,Vascular occlusion,136,5.76,4.27e-64
+humira,Optic atrophy,29,5.75,2.06e-14
+humira,Pulmonary hypertension,410,5.74,5.37e-190
+humira,Blood calcium increased,201,5.74,9.25e-94
+humira,Heart valve incompetence,460,5.74,7.32e-213
+humira,Tuberculin test positive,515,5.72,3.18e-237
+humira,Abdominal wall cyst,27,5.69,2.36e-13
+humira,Joint arthroplasty,1308,5.69,0.0
+humira,Chronic inflammatory demyelinating polyradiculoneuropathy,38,5.69,1.92e-18
+humira,Abnormal weight gain,49,5.69,1.63e-23
+humira,Vascular rupture,224,5.68,3.17e-103
+humira,Tongue neoplasm malignant stage unspecified,63,5.66,8.7e-30
+humira,Benign ovarian tumour,31,5.65,4.16e-15
+humira,Genital discomfort,31,5.65,4.16e-15
+humira,Lymphadenectomy,80,5.62,2.93e-37
+humira,Mediastinal mass,35,5.62,7.37e-17
+humira,Incisional drainage,40,5.62,3.91e-19
+humira,International normalised ratio fluctuation,1355,5.61,0.0
+humira,Nail growth abnormal,73,5.59,5.99e-34
+humira,Intraductal papilloma of breast,39,5.59,1.31e-18
+humira,Visual field defect,223,5.59,3.1e-101
+humira,Blood iron abnormal,1411,5.58,0.0
+humira,Myocardial injury,29,5.58,4.74e-14
+humira,Completed suicide,86,5.57,1.11e-39
+humira,Carbon dioxide decreased,86,5.57,1.11e-39
+humira,Concomitant disease progression,33,5.56,8.35e-16
+humira,Breast calcifications,71,5.56,6.71e-33
+humira,Blindness transient,247,5.55,3.02e-111
+humira,Cerebellar stroke,63,5.51,4.58e-29
+humira,Gastric fistula,27,5.51,5.38e-13
+humira,Overweight,614,5.5,7.89e-272
+humira,Oligomenorrhoea,53,5.5,1.55e-24
+humira,Enzyme abnormality,66,5.49,2.79e-30
+humira,Intra-abdominal haemorrhage,35,5.49,1.67e-16
+humira,Vaginal cancer,35,5.49,1.67e-16
+humira,Central nervous system vasculitis,43,5.47,5.32e-20
+humira,Tooth loss,535,5.46,1.14e-235
+humira,Blood glucose fluctuation,153,5.46,2.87e-68
+humira,Scoliosis,1270,5.45,0.0
+humira,H1N1 influenza,38,5.45,9.95e-18
+humira,Skin lesion inflammation,25,5.43,6.08e-12
+humira,Pharyngeal inflammation,191,5.43,1.55e-84
+humira,Penis disorder,45,5.42,1.07e-20
+humira,Gingival injury,28,5.39,3.56e-13
+humira,Gastric haemorrhage,474,5.37,2.25e-205
+humira,Cardiac dysfunction,256,5.36,2.41e-111
+humira,Polyarteritis nodosa,27,5.35,1.19e-12
+humira,Bundle branch block right,61,5.34,2.52e-27
+humira,Transplant rejection,83,5.33,1.03e-36
+humira,Joint contracture,30,5.32,6.96e-14
+humira,Post-traumatic pain,100,5.31,7.87e-44
+humira,Device related sepsis,62,5.29,1.67e-27
+humira,Small intestinal perforation,147,5.27,2e-63
+humira,Internal haemorrhage,678,5.26,5.68e-287
+humira,Allergic cough,202,5.26,1.86e-86
+humira,Peripheral artery thrombosis,110,5.26,1.17e-47
+humira,Eyelid cyst,28,5.24,7.7e-13
+humira,Malignant polyp,42,5.24,8.52e-19
+humira,Small cell lung cancer,28,5.24,7.7e-13
+humira,Application site pruritus,27,5.2,2.56e-12
+humira,Craniofacial fracture,56,5.17,2.14e-24
+humira,Device expulsion,41,5.12,5.97e-18
+humira,Pancreatitis relapsing,25,5.11,2.8e-11
+humira,Haemorrhoids thrombosed,53,5.1,7.55e-23
+humira,Essential tremor,37,5.09,3.31e-16
+humira,Malignant melanoma in situ,52,5.08,2.47e-22
+humira,Noninfective encephalitis,76,5.07,4.22e-32
+humira,Meniere's disease,124,5.06,1.41e-51
+humira,End stage renal disease,173,5.05,3.28e-71
+humira,Lyme disease,1461,5.04,0.0
+humira,Spinal cord infection,62,5.03,3.41e-26
+humira,Mesenteric vein thrombosis,41,5.02,1.24e-17
+humira,Suicidal behaviour,32,5.02,6.02e-14
+humira,Terminal state,811,5.01,0.0
+humira,Haemangioma of liver,75,5.0,2.86e-31
+zantac,Colorectal cancer,127228,4851.89,0.0
+zantac,Bladder cancer,105891,1286.7,0.0
+zantac,Gastrointestinal carcinoma,20384,916.68,0.0
+zantac,Prostate cancer,161930,810.49,0.0
+zantac,Renal cancer,109371,722.43,0.0
+zantac,Hepatic cancer,49288,637.48,0.0
+zantac,Cervix carcinoma,5811,553.07,0.0
+zantac,Throat cancer,5348,508.84,0.0
+zantac,Breast cancer,139967,476.15,0.0
+zantac,Uterine cancer,14286,408.89,0.0
+zantac,Oesophageal carcinoma,69934,372.59,0.0
+zantac,Pancreatic carcinoma,43380,359.4,0.0
+zantac,Thyroid cancer,18916,313.61,0.0
+zantac,Prostatic disorder,9397,180.56,0.0
+zantac,Gastric cancer,55828,168.5,0.0
+zantac,Ovarian cancer,9905,163.19,0.0
+zantac,Breast cancer female,12335,143.09,0.0
+zantac,Bone cancer,4281,140.52,0.0
+zantac,Lung carcinoma cell type unspecified stage IV,3998,134.4,0.0
+zantac,Non-Hodgkin's lymphoma,2898,99.78,0.0
+zantac,Gastric cancer stage IV,3963,92.58,0.0
+zantac,Gastric cancer stage II,1361,79.68,0.0
+zantac,Skin cancer,15937,54.28,0.0
+zantac,Lip and/or oral cavity cancer,681,50.62,0.0
+zantac,Neoplasm malignant,26547,50.62,0.0
+zantac,Colon cancer,4709,45.73,0.0
+zantac,Leukaemia,2291,33.91,0.0
+zantac,Gastric cancer stage III,1527,31.13,0.0
+zantac,Lymphoma,3447,30.44,0.0
+zantac,Breast cancer stage II,12154,29.97,0.0
+zantac,Adrenal gland cancer,369,28.99,3.85e-189
+zantac,Lung neoplasm malignant,44256,27.62,0.0
+zantac,Physical disability,1090,21.89,0.0
+zantac,Rectal cancer,663,20.49,0.0
+zantac,Endometrial cancer,478,20.22,1.24e-228
+zantac,Tonsil cancer,476,20.14,1.81e-227
+zantac,Hepatic cancer metastatic,192,19.55,6.25e-92
+zantac,Precancerous condition,239,12.89,1.4e-101
+zantac,Spinal cord neoplasm,149,12.8,1.15e-63
+zantac,Cholangiocarcinoma,263,11.85,2.04e-108
+zantac,Follicular lymphoma,116,9.66,9.7e-45
+zantac,Breast cancer stage III,6713,9.2,0.0
+zantac,Skin injury,126,8.88,1.15e-46
+zantac,Breast disorder,128,8.0,5.57e-45
+zantac,B-cell lymphoma,178,7.2,1.56e-58
+zantac,Invasive ductal breast carcinoma,197,7.13,2.86e-64
+zantac,Liposarcoma,66,6.98,4.62e-22
+zantac,Neuroendocrine tumour,210,6.96,1.92e-67
+zantac,Malignant melanoma,906,6.83,9.13e-283
+zantac,Borderline personality disorder,61,6.71,5.26e-20
+zantac,Barrett's oesophagus,864,6.56,4.53e-263
+zantac,Chronic myeloid leukaemia,141,6.46,1.14e-43
+zantac,Polypectomy,117,6.43,2.38e-36
+zantac,Gastrointestinal stromal tumour,519,6.29,3.28e-154
+zantac,Laryngeal disorder,72,6.19,2.93e-22
+zantac,Perfume sensitivity,100,6.11,3.26e-30
+zantac,Metastatic neoplasm,186,5.88,1.18e-53
+zantac,Brain injury,739,5.82,1.96e-207
+zantac,Squamous cell carcinoma,722,5.5,3.24e-194
+zantac,Mast cell activation syndrome,77,5.43,1.12e-21
+zantac,Chronic lymphocytic leukaemia,432,5.38,8.85e-115
+zantac,Mastocytosis,58,5.32,2.36e-16
+zantac,Disease progression,6461,5.23,0.0
+zantac,Carcinoid tumour of the small bowel,66,5.18,4.1e-18
+zantac,Injury,9209,5.13,0.0
+zantac,Plasma cell myeloma,2255,5.03,0.0
+jardiance,Ketoacidosis,1154,120.41,0.0
+jardiance,Blood immunoglobulin E increased,211,63.86,0.0
+jardiance,Glucose urine present,176,55.68,0.0
+jardiance,Urine ketone body present,101,43.92,3.56e-221
+jardiance,Euglycaemic diabetic ketoacidosis,1386,39.34,0.0
+jardiance,Diabetic ketoacidosis,2438,37.42,0.0
+jardiance,Tenosynovitis stenosans,55,29.43,2.56e-105
+jardiance,Pyelonephritis acute,51,28.38,2.82e-96
+jardiance,Physical deconditioning,70,27.06,1.18e-129
+jardiance,Accidental underdose,103,27.04,9.57e-191
+jardiance,Glycosylated haemoglobin abnormal,165,25.24,1.15e-296
+jardiance,Fournier's gangrene,1227,23.93,0.0
+jardiance,Substance use,129,23.32,6.49e-224
+jardiance,Fungal infection,2282,22.58,0.0
+jardiance,Skin wrinkling,159,22.13,2.88e-269
+jardiance,Compartment syndrome,47,20.43,1.15e-76
+jardiance,Aortic thrombosis,32,17.81,1.24e-48
+jardiance,Enthesopathy,92,17.07,3.2e-136
+jardiance,Genital pain,38,17.05,2.25e-56
+jardiance,Amputation,32,16.49,1.32e-46
+jardiance,Glycosylated haemoglobin decreased,180,15.86,6.43e-255
+jardiance,Polycythaemia,54,15.65,3.64e-76
+jardiance,Vulvovaginal pruritus,157,15.61,2.58e-220
+jardiance,Erythema nodosum,32,15.35,1.03e-44
+jardiance,Antinuclear antibody positive,30,14.39,2.5e-40
+jardiance,Vulval abscess,31,14.38,1.23e-41
+jardiance,Orchitis,31,14.38,1.23e-41
+jardiance,Therapeutic response delayed,30,13.91,1.74e-39
+jardiance,Vascular stent stenosis,27,13.41,9.46e-35
+jardiance,Glycosylated haemoglobin increased,1456,12.52,0.0
+jardiance,Urine output increased,76,12.44,2.24e-92
+jardiance,Vulvovaginal burning sensation,52,12.26,9.88e-63
+jardiance,Total lung capacity decreased,31,11.98,5.8e-37
+jardiance,Rash morbilliform,48,11.93,7.89e-57
+jardiance,Blood glucose abnormal,665,11.64,0.0
+jardiance,Hyperglycaemic hyperosmolar nonketotic syndrome,44,11.34,2.73e-50
+jardiance,Pneumonia fungal,132,11.27,4.54e-149
+jardiance,Blood glucose fluctuation,326,10.92,0.0
+jardiance,Central obesity,27,10.43,3.29e-29
+jardiance,Disease complication,39,10.24,2.2e-41
+jardiance,Leg amputation,70,10.15,2.63e-73
+jardiance,Food craving,51,10.14,1.54e-53
+jardiance,Fear of death,32,9.89,3.63e-33
+jardiance,Pyoderma gangrenosum,53,9.58,3.49e-53
+jardiance,Blood glucose increased,4169,9.4,0.0
+jardiance,Urine abnormality,176,9.14,2.91e-168
+jardiance,Blood glucose decreased,949,9.03,0.0
+jardiance,Perineal pain,46,8.77,5.11e-43
+jardiance,Toe amputation,120,8.74,9.23e-111
+jardiance,Necrotising fasciitis,217,8.71,9.05e-199
+jardiance,Cardiac operation,307,8.3,3.36e-269
+jardiance,Faeces hard,150,8.09,4.17e-129
+jardiance,Abdominal mass,118,7.93,5.81e-100
+jardiance,Perineal infection,44,7.56,3.66e-36
+jardiance,Implantable defibrillator insertion,36,7.47,2.01e-29
+jardiance,Acidosis,174,7.45,1.28e-138
+jardiance,Device failure,86,7.39,1.94e-68
+jardiance,Vulvovaginal mycotic infection,173,7.32,1.75e-135
+jardiance,Vulvovaginal discomfort,59,7.26,1.74e-46
+jardiance,Left atrial dilatation,38,7.05,2.25e-29
+jardiance,Sensitivity to weather change,165,6.98,1.88e-123
+jardiance,Extra dose administered,361,6.98,9.91e-269
+jardiance,Blood growth hormone increased,42,6.87,1.27e-31
+jardiance,Insulin resistance,37,6.86,6.61e-28
+jardiance,Chest injury,29,6.61,2.9e-21
+jardiance,Cardioversion,46,6.6,3.35e-33
+jardiance,Extremity necrosis,44,6.58,1.02e-31
+jardiance,Umbilical hernia,139,6.54,1.65e-97
+jardiance,Nasal disorder,25,6.44,5.8e-18
+jardiance,Eye operation,86,6.4,1.98e-59
+jardiance,Pigmentation disorder,134,6.3,1.52e-90
+jardiance,Pancreatic carcinoma,130,6.24,5.65e-87
+jardiance,Diabetic retinopathy,49,6.2,3.74e-33
+jardiance,Hypernatraemia,96,5.99,8.57e-62
+jardiance,Adrenal insufficiency,341,5.89,2.74e-212
+jardiance,Cardiac discomfort,35,5.73,4.75e-22
+jardiance,Bronchiectasis,218,5.59,1.35e-128
+jardiance,Hysterectomy,37,5.59,1.1e-22
+jardiance,Product physical consistency issue,29,5.53,1e-17
+jardiance,Pruritus genital,179,5.48,2.17e-103
+jardiance,Anion gap increased,28,5.41,9.36e-17
+jardiance,Insulin-like growth factor increased,71,5.25,9e-40
+jardiance,Abnormal loss of weight,119,5.16,1.6e-64
+jardiance,Lymphopenia,108,5.16,9.69e-59
+jardiance,Product colour issue,53,5.09,7.75e-29
+jardiance,Thirst,311,5.04,5.29e-162
+jardiance,Vascular graft,38,5.03,1.06e-20
+jardiance,Skin injury,26,5.02,2.11e-14

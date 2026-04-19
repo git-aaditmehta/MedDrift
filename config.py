@@ -35,7 +35,7 @@ EWMA_THRESHOLD = 3
 
 # ── Statistical Validation ────────────────────────────────
 # ROR > 2.0 = drug appears 2x more in this reaction than expected (WHO guideline)
-ROR_THRESHOLD = 2.0
+ROR_THRESHOLD = 5.0
 
 # p < 0.05 = less than 5% probability result occurred by chance
 P_VALUE_THRESHOLD = 0.05
@@ -78,4 +78,10 @@ TARGET_DRUGS = ["humira", "zantac", "jardiance"]
 
 # Configurable — swap any drug names for your analysis scope
 # Default set validated against cardiovascular and metabolic drug profiles
+# Baseline configuration
+BASELINE_YEAR = 2022
 
+DRUG_BASELINE_PERIODS = {
+    "zantac":     2021,   # post-withdrawal, pre-data-thinning
+    "ranitidine": 2021,   # same — generic name for zantac
+}
