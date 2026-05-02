@@ -1,0 +1,544 @@
+drug_name,reaction,pair_count,ROR,p_value,max_cusum,alert_quarters,cusum_signal,max_ewma,ewma_signal,confidence_score,confidence_label
+zantac,Colorectal cancer,127228,4851.89,0.0,211.67,98.0,True,1009.2,True,3,High — All three methods
+zantac,Bladder cancer,105891,1286.7,0.0,118.97,50.0,True,1097.72,True,3,High — All three methods
+zantac,Gastrointestinal carcinoma,20384,916.68,0.0,224.09,82.0,True,190.9,True,3,High — All three methods
+zantac,Prostate cancer,161930,810.49,0.0,137.53,52.0,True,1168.67,True,3,High — All three methods
+zantac,Renal cancer,109371,722.43,0.0,188.2,83.0,True,789.18,True,3,High — All three methods
+humira,Device issue,18620,51.33,0.0,19.14,23.0,True,966.2,True,3,High — All three methods
+jardiance,Euglycaemic diabetic ketoacidosis,1386,39.34,0.0,62.65,21.0,True,37.02,True,3,High — All three methods
+humira,Adverse food reaction,1425,64.91,0.0,8.45,2.0,True,122.2,False,2,Medium — ROR + one method
+jardiance,Glucose urine present,176,55.68,0.0,15.11,7.0,True,11.48,False,2,Medium — ROR + one method
+humira,Medical device implantation,502,49.76,0.0,5.83,1.0,True,33.2,False,2,Medium — ROR + one method
+jardiance,Urine ketone body present,101,43.92,3.56e-221,16.97,8.0,True,4.91,False,2,Medium — ROR + one method
+zantac,Hepatic cancer,49288,637.48,0.0,,,False,,False,1,Low — ROR only
+zantac,Cervix carcinoma,5811,553.07,0.0,,,False,,False,1,Low — ROR only
+zantac,Throat cancer,5348,508.84,0.0,,,False,,False,1,Low — ROR only
+zantac,Breast cancer,139967,476.15,0.0,,,False,,False,1,Low — ROR only
+zantac,Uterine cancer,14286,408.89,0.0,,,False,,False,1,Low — ROR only
+zantac,Oesophageal carcinoma,69934,372.59,0.0,,,False,,False,1,Low — ROR only
+zantac,Pancreatic carcinoma,43380,359.4,0.0,,,False,,False,1,Low — ROR only
+zantac,Thyroid cancer,18916,313.61,0.0,,,False,,False,1,Low — ROR only
+humira,Temperature regulation disorder,2186,258.56,0.0,,,False,,False,1,Low — ROR only
+zantac,Prostatic disorder,9397,180.56,0.0,,,False,,False,1,Low — ROR only
+zantac,Gastric cancer,55828,168.5,0.0,,,False,,False,1,Low — ROR only
+zantac,Ovarian cancer,9905,163.19,0.0,,,False,,False,1,Low — ROR only
+zantac,Breast cancer female,12335,143.09,0.0,,,False,,False,1,Low — ROR only
+zantac,Bone cancer,4281,140.52,0.0,,,False,,False,1,Low — ROR only
+zantac,Lung carcinoma cell type unspecified stage IV,3998,134.4,0.0,,,False,,False,1,Low — ROR only
+humira,Injection site papule,2311,120.78,0.0,1.59,0.0,False,151.6,False,1,Low — ROR only
+jardiance,Ketoacidosis,1154,120.41,0.0,1.59,0.0,False,43.4,False,1,Low — ROR only
+zantac,Non-Hodgkin's lymphoma,2898,99.78,0.0,,,False,,False,1,Low — ROR only
+zantac,Gastric cancer stage IV,3963,92.58,0.0,,,False,,False,1,Low — ROR only
+zantac,Gastric cancer stage II,1361,79.68,0.0,,,False,,False,1,Low — ROR only
+jardiance,Blood immunoglobulin E increased,211,63.86,0.0,,,False,,False,1,Low — ROR only
+zantac,Skin cancer,15937,54.28,0.0,,,False,,False,1,Low — ROR only
+zantac,Lip and/or oral cavity cancer,681,50.62,0.0,,,False,,False,1,Low — ROR only
+zantac,Neoplasm malignant,26547,50.62,0.0,,,False,,False,1,Low — ROR only
+zantac,Colon cancer,4709,45.73,0.0,,,False,,False,1,Low — ROR only
+humira,Vaccination site pain,635,44.58,0.0,,,False,,False,1,Low — ROR only
+jardiance,Diabetic ketoacidosis,2438,37.42,0.0,,,False,,False,1,Low — ROR only
+zantac,Leukaemia,2291,33.91,0.0,,,False,,False,1,Low — ROR only
+humira,Bone deformity,366,33.79,0.0,,,False,,False,1,Low — ROR only
+humira,Catheter placement,125,33.7,2.1e-144,,,False,,False,1,Low — ROR only
+humira,Immunisation reaction,802,31.8,0.0,,,False,,False,1,Low — ROR only
+humira,Degenerative bone disease,312,31.38,0.0,,,False,,False,1,Low — ROR only
+zantac,Gastric cancer stage III,1527,31.13,0.0,,,False,,False,1,Low — ROR only
+humira,Cartilage atrophy,491,30.93,0.0,,,False,,False,1,Low — ROR only
+zantac,Lymphoma,3447,30.44,0.0,,,False,,False,1,Low — ROR only
+zantac,Breast cancer stage II,12154,29.97,0.0,,,False,,False,1,Low — ROR only
+humira,Optic nerve injury,114,29.55,1.07e-127,,,False,,False,1,Low — ROR only
+humira,Injection site injury,929,29.54,0.0,,,False,,False,1,Low — ROR only
+jardiance,Tenosynovitis stenosans,55,29.43,2.56e-105,,,False,,False,1,Low — ROR only
+humira,Antibiotic therapy,142,29.0,3.94e-158,,,False,,False,1,Low — ROR only
+zantac,Adrenal gland cancer,369,28.99,3.8499999999999994e-189,,,False,,False,1,Low — ROR only
+humira,Foetal death,2039,28.46,0.0,,,False,,False,1,Low — ROR only
+jardiance,Pyelonephritis acute,51,28.38,2.82e-96,,,False,,False,1,Low — ROR only
+humira,Tenoplasty,117,28.16,2.0100000000000002e-129,,,False,,False,1,Low — ROR only
+zantac,Lung neoplasm malignant,44256,27.62,0.0,,,False,,False,1,Low — ROR only
+humira,Ovarian failure,131,27.59,4.8600000000000004e-144,,,False,,False,1,Low — ROR only
+jardiance,Physical deconditioning,70,27.06,1.18e-129,,,False,,False,1,Low — ROR only
+jardiance,Accidental underdose,103,27.04,9.57e-191,,,False,,False,1,Low — ROR only
+humira,Lung perforation,122,25.69,1.4e-131,,,False,,False,1,Low — ROR only
+humira,Abdominal neoplasm,95,25.61,1.62e-102,,,False,,False,1,Low — ROR only
+jardiance,Glycosylated haemoglobin abnormal,165,25.24,1.15e-296,,,False,,False,1,Low — ROR only
+humira,Wrong technique in product usage process,13718,24.94,0.0,,,False,,False,1,Low — ROR only
+humira,Postoperative thrombosis,150,24.66,1.1e-159,,,False,,False,1,Low — ROR only
+humira,Liquid product physical issue,445,24.58,0.0,,,False,,False,1,Low — ROR only
+humira,Therapy interrupted,9919,24.46,0.0,,,False,,False,1,Low — ROR only
+humira,Injury corneal,101,24.31,2.62e-107,,,False,,False,1,Low — ROR only
+humira,Glycosylated haemoglobin abnormal,104,24.17,2.77e-110,,,False,,False,1,Low — ROR only
+jardiance,Fournier's gangrene,1227,23.93,0.0,,,False,,False,1,Low — ROR only
+humira,Oophorectomy,94,23.46,7.44e-99,,,False,,False,1,Low — ROR only
+jardiance,Substance use,129,23.32,6.49e-224,,,False,,False,1,Low — ROR only
+humira,Device use error,729,22.75,0.0,,,False,,False,1,Low — ROR only
+jardiance,Fungal infection,2282,22.58,0.0,,,False,,False,1,Low — ROR only
+humira,Allergy to vaccine,215,22.29,1.6699999999999998e-221,,,False,,False,1,Low — ROR only
+jardiance,Skin wrinkling,159,22.13,2.8800000000000002e-269,,,False,,False,1,Low — ROR only
+humira,Vertebral osteophyte,111,22.0,2.92e-114,,,False,,False,1,Low — ROR only
+zantac,Physical disability,1090,21.89,0.0,,,False,,False,1,Low — ROR only
+humira,Fat tissue increased,130,21.37,2.0700000000000002e-132,,,False,,False,1,Low — ROR only
+humira,Bone operation,95,20.65,7.41e-96,,,False,,False,1,Low — ROR only
+humira,Haemorrhagic stroke,107,20.6,8.78e-108,,,False,,False,1,Low — ROR only
+zantac,Rectal cancer,663,20.49,0.0,,,False,,False,1,Low — ROR only
+jardiance,Compartment syndrome,47,20.43,1.15e-76,,,False,,False,1,Low — ROR only
+zantac,Endometrial cancer,478,20.22,1.2399999999999999e-228,,,False,,False,1,Low — ROR only
+zantac,Tonsil cancer,476,20.14,1.81e-227,,,False,,False,1,Low — ROR only
+zantac,Hepatic cancer metastatic,192,19.55,6.25e-92,,,False,,False,1,Low — ROR only
+humira,Heart valve replacement,127,19.45,3.1600000000000004e-125,,,False,,False,1,Low — ROR only
+humira,Ammonia increased,94,19.2,1.91e-92,,,False,,False,1,Low — ROR only
+humira,Orthopaedic procedure,71,19.14,6.33e-70,,,False,,False,1,Low — ROR only
+humira,Gastric neoplasm,78,18.77,3.27e-76,,,False,,False,1,Low — ROR only
+humira,Surgical failure,693,18.54,0.0,,,False,,False,1,Low — ROR only
+humira,Contrast media allergy,531,18.17,0.0,,,False,,False,1,Low — ROR only
+humira,Retinal oedema,99,18.03,4.4299999999999994e-95,,,False,,False,1,Low — ROR only
+jardiance,Aortic thrombosis,32,17.81,1.2399999999999999e-48,,,False,,False,1,Low — ROR only
+humira,Cervical radiculopathy,139,17.68,3.85e-132,,,False,,False,1,Low — ROR only
+humira,Skull fracture,95,17.3,8.089999999999999e-90,,,False,,False,1,Low — ROR only
+humira,Impaired self-care,503,17.3,0.0,,,False,,False,1,Low — ROR only
+humira,Rehabilitation therapy,612,17.19,0.0,,,False,,False,1,Low — ROR only
+jardiance,Enthesopathy,92,17.07,3.2e-136,,,False,,False,1,Low — ROR only
+jardiance,Genital pain,38,17.05,2.25e-56,,,False,,False,1,Low — ROR only
+humira,Injection site indentation,343,17.0,0.0,,,False,,False,1,Low — ROR only
+humira,Allergic oedema,222,17.0,2.8299999999999998e-207,,,False,,False,1,Low — ROR only
+jardiance,Amputation,32,16.49,1.32e-46,,,False,,False,1,Low — ROR only
+humira,Injection site haemorrhage,12091,16.39,0.0,,,False,,False,1,Low — ROR only
+humira,Limb asymmetry,80,16.34,5.069999999999999e-74,,,False,,False,1,Low — ROR only
+humira,Pelvic floor hernia,82,16.25,1.08e-75,,,False,,False,1,Low — ROR only
+humira,Deafness bilateral,99,15.89,2.39e-90,,,False,,False,1,Low — ROR only
+jardiance,Glycosylated haemoglobin decreased,180,15.86,6.43e-255,,,False,,False,1,Low — ROR only
+humira,Small intestinal haemorrhage,98,15.73,4.67e-89,,,False,,False,1,Low — ROR only
+humira,Protein total increased,151,15.66,1.6899999999999999e-136,,,False,,False,1,Low — ROR only
+jardiance,Polycythaemia,54,15.65,3.64e-76,,,False,,False,1,Low — ROR only
+humira,Cytogenetic abnormality,58,15.64,6.93e-53,,,False,,False,1,Low — ROR only
+jardiance,Vulvovaginal pruritus,157,15.61,2.58e-220,,,False,,False,1,Low — ROR only
+humira,Urinary bladder haemorrhage,60,15.55,1.4599999999999998e-54,,,False,,False,1,Low — ROR only
+humira,Gastric perforation,143,15.54,6.5e-129,,,False,,False,1,Low — ROR only
+humira,Product colour issue,76,15.52,7.43e-69,,,False,,False,1,Low — ROR only
+jardiance,Erythema nodosum,32,15.35,1.03e-44,,,False,,False,1,Low — ROR only
+humira,Medical procedure,243,15.31,6.3800000000000005e-217,,,False,,False,1,Low — ROR only
+humira,Injection site infection,109,14.99,6.41e-97,,,False,,False,1,Low — ROR only
+humira,Medical device pain,212,14.88,5.02e-187,,,False,,False,1,Low — ROR only
+humira,Seroma,174,14.84,1.7e-153,,,False,,False,1,Low — ROR only
+humira,Chemotherapy,413,14.65,0.0,,,False,,False,1,Low — ROR only
+humira,Sweat gland infection,65,14.6,1.94e-57,,,False,,False,1,Low — ROR only
+jardiance,Antinuclear antibody positive,30,14.39,2.5e-40,,,False,,False,1,Low — ROR only
+jardiance,Vulval abscess,31,14.38,1.23e-41,,,False,,False,1,Low — ROR only
+jardiance,Orchitis,31,14.38,1.23e-41,,,False,,False,1,Low — ROR only
+humira,Protein total decreased,161,14.28,1.3799999999999999e-139,,,False,,False,1,Low — ROR only
+humira,Spinal decompression,82,14.17,2.84e-71,,,False,,False,1,Low — ROR only
+humira,Post procedural pneumonia,67,14.11,2.8900000000000003e-58,,,False,,False,1,Low — ROR only
+humira,Antiphospholipid syndrome,194,14.06,8.66e-167,,,False,,False,1,Low — ROR only
+jardiance,Therapeutic response delayed,30,13.91,1.74e-39,,,False,,False,1,Low — ROR only
+humira,Hidradenitis,10026,13.8,0.0,,,False,,False,1,Low — ROR only
+humira,Corneal transplant,100,13.75,1.58e-85,,,False,,False,1,Low — ROR only
+humira,Neck surgery,525,13.66,0.0,,,False,,False,1,Low — ROR only
+humira,Patient-device incompatibility,52,13.48,2e-44,,,False,,False,1,Low — ROR only
+humira,Gallbladder enlargement,118,13.48,8.61e-100,,,False,,False,1,Low — ROR only
+jardiance,Vascular stent stenosis,27,13.41,9.46e-35,,,False,,False,1,Low — ROR only
+humira,Walking disability,117,13.36,1.52e-98,,,False,,False,1,Low — ROR only
+zantac,Precancerous condition,239,12.89,1.4000000000000001e-101,,,False,,False,1,Low — ROR only
+humira,Radiotherapy,63,12.87,1.8399999999999997e-52,,,False,,False,1,Low — ROR only
+zantac,Spinal cord neoplasm,149,12.8,1.15e-63,,,False,,False,1,Low — ROR only
+humira,Spinal deformity,303,12.68,4.8300000000000007e-247,,,False,,False,1,Low — ROR only
+humira,Bone loss,220,12.67,1.38e-179,,,False,,False,1,Low — ROR only
+humira,Autonomic nervous system imbalance,86,12.6,1.44e-70,,,False,,False,1,Low — ROR only
+jardiance,Glycosylated haemoglobin increased,1456,12.52,0.0,,,False,,False,1,Low — ROR only
+humira,Intraocular pressure decreased,74,12.47,1.6299999999999998e-60,,,False,,False,1,Low — ROR only
+jardiance,Urine output increased,76,12.44,2.24e-92,,,False,,False,1,Low — ROR only
+humira,Histone antibody positive,46,12.4,8.339999999999999e-38,,,False,,False,1,Low — ROR only
+humira,Disease complication,106,12.32,9.13e-86,,,False,,False,1,Low — ROR only
+humira,Self-consciousness,510,12.28,0.0,,,False,,False,1,Low — ROR only
+humira,Calcinosis,375,12.27,3.23e-300,,,False,,False,1,Low — ROR only
+jardiance,Vulvovaginal burning sensation,52,12.26,9.88e-63,,,False,,False,1,Low — ROR only
+humira,Respiratory arrest,176,12.23,3.0999999999999997e-141,,,False,,False,1,Low — ROR only
+humira,Procedural site reaction,58,12.22,4.1700000000000002e-47,,,False,,False,1,Low — ROR only
+humira,Thyroid function test abnormal,123,12.19,7.73e-99,,,False,,False,1,Low — ROR only
+humira,Hospice care,217,12.19,1.3800000000000001e-173,,,False,,False,1,Low — ROR only
+humira,Bundle branch block left,182,12.14,1.74e-145,,,False,,False,1,Low — ROR only
+humira,Heart valve stenosis,45,12.13,1.38e-36,,,False,,False,1,Low — ROR only
+humira,Gastrointestinal tube insertion,61,12.09,3.06e-49,,,False,,False,1,Low — ROR only
+humira,Stress cardiomyopathy,162,12.0,8.93e-129,,,False,,False,1,Low — ROR only
+humira,Glomerular filtration rate abnormal,64,11.98,2.24e-51,,,False,,False,1,Low — ROR only
+jardiance,Total lung capacity decreased,31,11.98,5.8e-37,,,False,,False,1,Low — ROR only
+humira,Bone neoplasm,71,11.96,7.350000000000001e-57,,,False,,False,1,Low — ROR only
+jardiance,Rash morbilliform,48,11.93,7.89e-57,,,False,,False,1,Low — ROR only
+zantac,Cholangiocarcinoma,263,11.85,2.0399999999999998e-108,,,False,,False,1,Low — ROR only
+humira,Unevaluable event,10048,11.73,0.0,,,False,,False,1,Low — ROR only
+humira,Bone infarction,52,11.68,2.46e-41,,,False,,False,1,Low — ROR only
+jardiance,Blood glucose abnormal,665,11.64,0.0,,,False,,False,1,Low — ROR only
+humira,Hepatitis B,170,11.57,1.8e-132,,,False,,False,1,Low — ROR only
+humira,Asphyxia,396,11.55,7.99e-307,,,False,,False,1,Low — ROR only
+humira,Arthroscopy,65,11.53,4.18e-51,,,False,,False,1,Low — ROR only
+humira,Oxygen therapy,46,11.48,2.56e-36,,,False,,False,1,Low — ROR only
+jardiance,Hyperglycaemic hyperosmolar nonketotic syndrome,44,11.34,2.73e-50,,,False,,False,1,Low — ROR only
+humira,Benign neoplasm of skin,47,11.31,8.53e-37,,,False,,False,1,Low — ROR only
+humira,Procedural failure,47,11.31,8.53e-37,,,False,,False,1,Low — ROR only
+jardiance,Pneumonia fungal,132,11.27,4.5399999999999995e-149,,,False,,False,1,Low — ROR only
+humira,Triple negative breast cancer,45,11.23,3.9900000000000003e-35,,,False,,False,1,Low — ROR only
+humira,Posture abnormal,55,11.23,9.28e-43,,,False,,False,1,Low — ROR only
+humira,Urinary bladder suspension,79,11.09,1.26e-60,,,False,,False,1,Low — ROR only
+humira,Gallbladder rupture,123,11.05,1.08e-93,,,False,,False,1,Low — ROR only
+humira,Ocular procedural complication,85,11.02,6.5e-65,,,False,,False,1,Low — ROR only
+humira,Enterocolitis haemorrhagic,57,10.98,1.01e-43,,,False,,False,1,Low — ROR only
+humira,Nerve block,430,10.94,0.0,,,False,,False,1,Low — ROR only
+humira,Osteomalacia,60,10.93,7.22e-46,,,False,,False,1,Low — ROR only
+humira,Mucosal discolouration,47,10.92,4.32e-36,,,False,,False,1,Low — ROR only
+jardiance,Blood glucose fluctuation,326,10.92,0.0,,,False,,False,1,Low — ROR only
+humira,Limb traumatic amputation,42,10.89,2.8400000000000004e-32,,,False,,False,1,Low — ROR only
+humira,Dialysis,465,10.84,0.0,,,False,,False,1,Low — ROR only
+humira,Device difficult to use,1034,10.84,0.0,,,False,,False,1,Low — ROR only
+humira,Parenteral nutrition,45,10.83,2.0000000000000003e-34,,,False,,False,1,Low — ROR only
+humira,Blood magnesium abnormal,61,10.82,2.37e-46,,,False,,False,1,Low — ROR only
+humira,Intestinal mucosal tear,46,10.69,6.48e-35,,,False,,False,1,Low — ROR only
+humira,Influenza virus test positive,39,10.51,1.9400000000000002e-29,,,False,,False,1,Low — ROR only
+humira,Chondropathy,752,10.49,0.0,,,False,,False,1,Low — ROR only
+humira,Chorioretinitis,42,10.48,1.3600000000000001e-31,,,False,,False,1,Low — ROR only
+humira,Abnormal clotting factor,48,10.44,6.72e-36,,,False,,False,1,Low — ROR only
+jardiance,Central obesity,27,10.43,3.29e-29,,,False,,False,1,Low — ROR only
+humira,Therapy cessation,1348,10.34,0.0,,,False,,False,1,Low — ROR only
+humira,Obliterative bronchiolitis,270,10.28,7.04e-196,,,False,,False,1,Low — ROR only
+humira,Biliary dilatation,67,10.26,2.7e-49,,,False,,False,1,Low — ROR only
+humira,Injection site discharge,1212,10.25,0.0,,,False,,False,1,Low — ROR only
+jardiance,Disease complication,39,10.24,2.2e-41,,,False,,False,1,Low — ROR only
+humira,Renal haemorrhage,47,10.22,9.71e-35,,,False,,False,1,Low — ROR only
+humira,Intra-abdominal haematoma,50,10.21,6.84e-37,,,False,,False,1,Low — ROR only
+jardiance,Leg amputation,70,10.15,2.63e-73,,,False,,False,1,Low — ROR only
+jardiance,Food craving,51,10.14,1.54e-53,,,False,,False,1,Low — ROR only
+humira,Lordosis,42,10.11,6.23e-31,,,False,,False,1,Low — ROR only
+humira,Pneumonia staphylococcal,39,10.11,8.89e-29,,,False,,False,1,Low — ROR only
+humira,Gastrointestinal ulcer haemorrhage,66,10.11,3.87e-48,,,False,,False,1,Low — ROR only
+humira,Macular oedema,301,10.09,8.7e-216,,,False,,False,1,Low — ROR only
+humira,Aortic dilatation,97,10.06,4.19e-70,,,False,,False,1,Low — ROR only
+humira,Post procedural swelling,512,9.94,0.0,,,False,,False,1,Low — ROR only
+jardiance,Fear of death,32,9.89,3.63e-33,,,False,,False,1,Low — ROR only
+humira,Procedural complication,804,9.87,0.0,,,False,,False,1,Low — ROR only
+humira,Mycoplasma infection,80,9.8,4.41e-57,,,False,,False,1,Low — ROR only
+humira,Pituitary tumour,55,9.75,2.12e-39,,,False,,False,1,Low — ROR only
+humira,Osteotomy,52,9.73,2.99e-37,,,False,,False,1,Low — ROR only
+humira,Pancreatic steatosis,85,9.71,3.1199999999999997e-60,,,False,,False,1,Low — ROR only
+humira,Anogenital warts,56,9.68,6.6299999999999996e-40,,,False,,False,1,Low — ROR only
+zantac,Follicular lymphoma,116,9.66,9.7e-45,,,False,,False,1,Low — ROR only
+humira,Retinal disorder,196,9.64,5.86e-137,,,False,,False,1,Low — ROR only
+humira,Bronchial obstruction,37,9.59,1.71e-26,,,False,,False,1,Low — ROR only
+jardiance,Pyoderma gangrenosum,53,9.58,3.49e-53,,,False,,False,1,Low — ROR only
+humira,Corneal scar,41,9.53,3.71e-29,,,False,,False,1,Low — ROR only
+humira,Arterial disorder,82,9.53,1.85e-57,,,False,,False,1,Low — ROR only
+humira,Incision site abscess,38,9.48,5.2600000000000005e-27,,,False,,False,1,Low — ROR only
+humira,Adhesion,496,9.42,0.0,,,False,,False,1,Low — ROR only
+humira,Uterine dilation and curettage,99,9.4,1.4399999999999999e-68,,,False,,False,1,Low — ROR only
+jardiance,Blood glucose increased,4169,9.4,0.0,,,False,,False,1,Low — ROR only
+humira,Hypovitaminosis,117,9.39,8.53e-81,,,False,,False,1,Low — ROR only
+humira,Skin indentation,79,9.34,1.07e-54,,,False,,False,1,Low — ROR only
+humira,Macular degeneration,4008,9.33,0.0,,,False,,False,1,Low — ROR only
+humira,Mumps,55,9.27,3.69e-38,,,False,,False,1,Low — ROR only
+humira,Injury associated with device,1598,9.27,0.0,,,False,,False,1,Low — ROR only
+humira,Endotracheal intubation,37,9.24,6.97e-26,,,False,,False,1,Low — ROR only
+humira,Endoscopy,41,9.21,1.51e-28,,,False,,False,1,Low — ROR only
+zantac,Breast cancer stage III,6713,9.2,0.0,,,False,,False,1,Low — ROR only
+humira,Vascular dementia,68,9.17,1.22e-46,,,False,,False,1,Low — ROR only
+jardiance,Urine abnormality,176,9.14,2.91e-168,,,False,,False,1,Low — ROR only
+humira,Tonsillolith,35,9.07,2.98e-24,,,False,,False,1,Low — ROR only
+humira,Therapy change,157,9.04,1.87e-105,,,False,,False,1,Low — ROR only
+jardiance,Blood glucose decreased,949,9.03,0.0,,,False,,False,1,Low — ROR only
+humira,Neuritis,129,8.96,2.5400000000000002e-86,,,False,,False,1,Low — ROR only
+humira,Blood calcium abnormal,58,8.88,4.13e-39,,,False,,False,1,Low — ROR only
+zantac,Skin injury,126,8.88,1.15e-46,,,False,,False,1,Low — ROR only
+humira,Lip haemorrhage,81,8.8,6.22e-54,,,False,,False,1,Low — ROR only
+humira,Monoparesis,116,8.78,1.1e-76,,,False,,False,1,Low — ROR only
+jardiance,Perineal pain,46,8.77,5.11e-43,,,False,,False,1,Low — ROR only
+jardiance,Toe amputation,120,8.74,9.23e-111,,,False,,False,1,Low — ROR only
+jardiance,Necrotising fasciitis,217,8.71,9.05e-199,,,False,,False,1,Low — ROR only
+humira,Hepatic neoplasm,134,8.68,9.890000000000001e-88,,,False,,False,1,Low — ROR only
+humira,Genital rash,76,8.68,3.48e-50,,,False,,False,1,Low — ROR only
+humira,Vaccination complication,124,8.62,7.94e-81,,,False,,False,1,Low — ROR only
+humira,Pruritus allergic,687,8.62,0.0,,,False,,False,1,Low — ROR only
+humira,Lymphadenopathy mediastinal,106,8.61,3.37e-69,,,False,,False,1,Low — ROR only
+humira,Intensive care,70,8.58,6.38e-46,,,False,,False,1,Low — ROR only
+humira,Renal surgery,66,8.55,2.86e-43,,,False,,False,1,Low — ROR only
+humira,Traumatic haematoma,33,8.55,4.67e-22,,,False,,False,1,Low — ROR only
+humira,Haemarthrosis,161,8.54,5.11e-104,,,False,,False,1,Low — ROR only
+humira,Granulomatous dermatitis,58,8.5,5.77e-38,,,False,,False,1,Low — ROR only
+humira,Paranasal sinus hypersecretion,461,8.47,1.0999999999999999e-293,,,False,,False,1,Low — ROR only
+humira,Gastric bypass,254,8.43,6.14e-162,,,False,,False,1,Low — ROR only
+humira,Corrective lens user,75,8.42,1.57e-48,,,False,,False,1,Low — ROR only
+humira,Musculoskeletal deformity,292,8.41,1.2600000000000001e-185,,,False,,False,1,Low — ROR only
+humira,Purulence,317,8.38,7.17e-201,,,False,,False,1,Low — ROR only
+humira,Rectal ulcer haemorrhage,31,8.36,1.9e-20,,,False,,False,1,Low — ROR only
+humira,Procedural haemorrhage,253,8.32,9.660000000000001e-160,,,False,,False,1,Low — ROR only
+jardiance,Cardiac operation,307,8.3,3.36e-269,,,False,,False,1,Low — ROR only
+humira,Radiculopathy,1795,8.29,0.0,,,False,,False,1,Low — ROR only
+humira,Meralgia paraesthetica,54,8.27,9.27e-35,,,False,,False,1,Low — ROR only
+humira,Oesophageal achalasia,49,8.26,1.39e-31,,,False,,False,1,Low — ROR only
+humira,Dental care,173,8.15,4.71e-108,,,False,,False,1,Low — ROR only
+humira,Lymphoedema,530,8.1,0.0,,,False,,False,1,Low — ROR only
+humira,Vertebral foraminal stenosis,102,8.09,8.82e-64,,,False,,False,1,Low — ROR only
+jardiance,Faeces hard,150,8.09,4.17e-129,,,False,,False,1,Low — ROR only
+humira,Coccidioidomycosis,98,8.05,3.85e-61,,,False,,False,1,Low — ROR only
+humira,Loose body in joint,190,8.05,1.67e-117,,,False,,False,1,Low — ROR only
+humira,Marrow hyperplasia,43,8.05,2.4500000000000002e-27,,,False,,False,1,Low — ROR only
+humira,Scrotal pain,37,8.04,1.2499999999999999e-23,,,False,,False,1,Low — ROR only
+humira,Mineral metabolism disorder,62,8.04,5.65e-39,,,False,,False,1,Low — ROR only
+humira,Skin discharge,204,8.04,6.37e-126,,,False,,False,1,Low — ROR only
+zantac,Breast disorder,128,8.0,5.5699999999999995e-45,,,False,,False,1,Low — ROR only
+humira,Atrioventricular block second degree,33,7.94,5.6200000000000006e-21,,,False,,False,1,Low — ROR only
+jardiance,Abdominal mass,118,7.93,5.81e-100,,,False,,False,1,Low — ROR only
+humira,Diabetic foot,81,7.91,4.63e-50,,,False,,False,1,Low — ROR only
+humira,Osteosarcoma,93,7.74,2.11e-56,,,False,,False,1,Low — ROR only
+humira,Carbon dioxide abnormal,86,7.73,3.4899999999999995e-52,,,False,,False,1,Low — ROR only
+humira,Cardiac fibrillation,47,7.73,6.11e-29,,,False,,False,1,Low — ROR only
+humira,Computerised tomogram thorax abnormal,32,7.7,6.26e-20,,,False,,False,1,Low — ROR only
+humira,Adenocarcinoma,56,7.7,3.11e-34,,,False,,False,1,Low — ROR only
+humira,Larynx irritation,32,7.7,6.26e-20,,,False,,False,1,Low — ROR only
+humira,Thyroid hormones increased,49,7.68,5.28e-30,,,False,,False,1,Low — ROR only
+humira,Cardioversion,58,7.66,2.7e-35,,,False,,False,1,Low — ROR only
+humira,Post-traumatic stress disorder,465,7.66,2.59e-275,,,False,,False,1,Low — ROR only
+humira,Nonspecific reaction,109,7.65,2.23e-65,,,False,,False,1,Low — ROR only
+humira,Aortic dissection,34,7.64,5.34e-21,,,False,,False,1,Low — ROR only
+humira,Gastrectomy,133,7.6,4.2700000000000006e-79,,,False,,False,1,Low — ROR only
+humira,Narcolepsy,36,7.58,4.56e-22,,,False,,False,1,Low — ROR only
+humira,Portal hypertensive gastropathy,45,7.58,2.2700000000000002e-27,,,False,,False,1,Low — ROR only
+humira,Ischaemia,45,7.58,2.2700000000000002e-27,,,False,,False,1,Low — ROR only
+humira,Spinal instability,101,7.56,3.97e-60,,,False,,False,1,Low — ROR only
+jardiance,Perineal infection,44,7.56,3.66e-36,,,False,,False,1,Low — ROR only
+humira,Hypermobility syndrome,95,7.53,1.92e-56,,,False,,False,1,Low — ROR only
+humira,Nystagmus,29,7.52,7.98e-18,,,False,,False,1,Low — ROR only
+humira,Cyclic vomiting syndrome,30,7.49,2.32e-18,,,False,,False,1,Low — ROR only
+jardiance,Implantable defibrillator insertion,36,7.47,2.0100000000000002e-29,,,False,,False,1,Low — ROR only
+jardiance,Acidosis,174,7.45,1.28e-138,,,False,,False,1,Low — ROR only
+humira,Depression suicidal,64,7.44,5.51e-38,,,False,,False,1,Low — ROR only
+humira,Brain neoplasm,607,7.44,0.0,,,False,,False,1,Low — ROR only
+humira,Blood parathyroid hormone increased,33,7.41,5.72e-20,,,False,,False,1,Low — ROR only
+humira,Vaginal flatulence,1485,7.4,0.0,,,False,,False,1,Low — ROR only
+humira,Injection site nerve damage,34,7.39,1.67e-20,,,False,,False,1,Low — ROR only
+jardiance,Device failure,86,7.39,1.94e-68,,,False,,False,1,Low — ROR only
+humira,Cardiac tamponade,176,7.37,7.11e-102,,,False,,False,1,Low — ROR only
+humira,Venous thrombosis limb,198,7.37,1.5999999999999999e-114,,,False,,False,1,Low — ROR only
+jardiance,Vulvovaginal mycotic infection,173,7.32,1.75e-135,,,False,,False,1,Low — ROR only
+humira,Cystoid macular oedema,91,7.3,7.73e-53,,,False,,False,1,Low — ROR only
+humira,Mean platelet volume decreased,266,7.29,4.9099999999999996e-152,,,False,,False,1,Low — ROR only
+humira,Ankle operation,717,7.29,0.0,,,False,,False,1,Low — ROR only
+humira,Uterine malposition,28,7.26,8.37e-17,,,False,,False,1,Low — ROR only
+humira,Rectal dysplasia,28,7.26,8.37e-17,,,False,,False,1,Low — ROR only
+humira,Gingival recession,209,7.26,2.24e-119,,,False,,False,1,Low — ROR only
+jardiance,Vulvovaginal discomfort,59,7.26,1.7399999999999998e-46,,,False,,False,1,Low — ROR only
+humira,Vocal cord disorder,85,7.25,3.67e-49,,,False,,False,1,Low — ROR only
+humira,Acanthosis,29,7.24,2.43e-17,,,False,,False,1,Low — ROR only
+humira,Apparent death,1082,7.23,0.0,,,False,,False,1,Low — ROR only
+humira,Biopsy,31,7.2,2.04e-18,,,False,,False,1,Low — ROR only
+zantac,B-cell lymphoma,178,7.2,1.56e-58,,,False,,False,1,Low — ROR only
+humira,Drug delivery system malfunction,49,7.18,1.57e-28,,,False,,False,1,Low — ROR only
+humira,Lumbar radiculopathy,67,7.17,1.2899999999999999e-38,,,False,,False,1,Low — ROR only
+humira,Shoulder arthroplasty,892,7.17,0.0,,,False,,False,1,Low — ROR only
+humira,Chronic idiopathic pain syndrome,243,7.15,6.15e-137,,,False,,False,1,Low — ROR only
+humira,Incision site haemorrhage,53,7.14,1.14e-30,,,False,,False,1,Low — ROR only
+zantac,Invasive ductal breast carcinoma,197,7.13,2.86e-64,,,False,,False,1,Low — ROR only
+humira,Device material issue,78,7.1,1.77e-44,,,False,,False,1,Low — ROR only
+humira,Tachyarrhythmia,122,7.09,7.539999999999999e-69,,,False,,False,1,Low — ROR only
+humira,Smoke sensitivity,43,7.07,7.51e-25,,,False,,False,1,Low — ROR only
+humira,Artificial crown procedure,131,7.06,1.23e-73,,,False,,False,1,Low — ROR only
+humira,Intestinal sepsis,536,7.06,3.57e-297,,,False,,False,1,Low — ROR only
+jardiance,Left atrial dilatation,38,7.05,2.2500000000000002e-29,,,False,,False,1,Low — ROR only
+humira,Drug use disorder,1113,7.04,0.0,,,False,,False,1,Low — ROR only
+humira,Toe amputation,394,7.04,1.64e-218,,,False,,False,1,Low — ROR only
+humira,Cardiac ventricular thrombosis,27,7.0,8.45e-16,,,False,,False,1,Low — ROR only
+humira,Peripheral nerve injury,169,6.99,7.61e-94,,,False,,False,1,Low — ROR only
+humira,Fibroadenoma of breast,84,6.99,3.29e-47,,,False,,False,1,Low — ROR only
+humira,Bleeding time prolonged,28,6.99,2.45e-16,,,False,,False,1,Low — ROR only
+humira,Balanoposthitis,29,6.98,7.08e-17,,,False,,False,1,Low — ROR only
+humira,Gastric pH decreased,29,6.98,7.08e-17,,,False,,False,1,Low — ROR only
+humira,Leiomyoma,29,6.98,7.08e-17,,,False,,False,1,Low — ROR only
+zantac,Liposarcoma,66,6.98,4.62e-22,,,False,,False,1,Low — ROR only
+jardiance,Sensitivity to weather change,165,6.98,1.88e-123,,,False,,False,1,Low — ROR only
+jardiance,Extra dose administered,361,6.98,9.91e-269,,,False,,False,1,Low — ROR only
+humira,Adenomyosis,30,6.97,2.05e-17,,,False,,False,1,Low — ROR only
+humira,Atlantoaxial instability,60,6.97,6.1e-34,,,False,,False,1,Low — ROR only
+humira,Cardiac ablation,160,6.96,1.36e-88,,,False,,False,1,Low — ROR only
+zantac,Neuroendocrine tumour,210,6.96,1.92e-67,,,False,,False,1,Low — ROR only
+humira,Anticipatory anxiety,795,6.88,0.0,,,False,,False,1,Low — ROR only
+humira,Deafness transitory,470,6.87,3.77e-255,,,False,,False,1,Low — ROR only
+humira,Suture related complication,316,6.87,5.68e-172,,,False,,False,1,Low — ROR only
+humira,Breast cyst,328,6.87,2.39e-178,,,False,,False,1,Low — ROR only
+jardiance,Blood growth hormone increased,42,6.87,1.27e-31,,,False,,False,1,Low — ROR only
+jardiance,Insulin resistance,37,6.86,6.61e-28,,,False,,False,1,Low — ROR only
+humira,Intervertebral disc compression,249,6.85,1.88e-135,,,False,,False,1,Low — ROR only
+humira,Megacolon,72,6.83,6.839999999999999e-40,,,False,,False,1,Low — ROR only
+zantac,Malignant melanoma,906,6.83,9.13e-283,,,False,,False,1,Low — ROR only
+humira,Rubber sensitivity,163,6.82,8.19e-89,,,False,,False,1,Low — ROR only
+humira,Anuria,90,6.82,1.72e-49,,,False,,False,1,Low — ROR only
+humira,Blood cholesterol,421,6.76,1.75e-225,,,False,,False,1,Low — ROR only
+humira,Hepatocellular carcinoma,66,6.74,3.07e-36,,,False,,False,1,Low — ROR only
+humira,Lung operation,47,6.74,4.4e-26,,,False,,False,1,Low — ROR only
+humira,Contraindication to vaccination,52,6.74,9.29e-29,,,False,,False,1,Low — ROR only
+humira,Hypotonia,165,6.74,5.649999999999999e-89,,,False,,False,1,Low — ROR only
+zantac,Borderline personality disorder,61,6.71,5.26e-20,,,False,,False,1,Low — ROR only
+humira,Joint lock,864,6.66,0.0,,,False,,False,1,Low — ROR only
+humira,Device breakage,495,6.66,1.17e-261,,,False,,False,1,Low — ROR only
+humira,Mucosal ulceration,121,6.63,1.14e-64,,,False,,False,1,Low — ROR only
+humira,Neovascular age-related macular degeneration,124,6.63,2.88e-66,,,False,,False,1,Low — ROR only
+jardiance,Chest injury,29,6.61,2.9e-21,,,False,,False,1,Low — ROR only
+humira,Tumour necrosis,48,6.6,3.5200000000000004e-26,,,False,,False,1,Low — ROR only
+jardiance,Cardioversion,46,6.6,3.35e-33,,,False,,False,1,Low — ROR only
+jardiance,Extremity necrosis,44,6.58,1.02e-31,,,False,,False,1,Low — ROR only
+humira,Brain operation,110,6.56,2.2400000000000002e-58,,,False,,False,1,Low — ROR only
+humira,Breast neoplasm,72,6.56,1.46e-38,,,False,,False,1,Low — ROR only
+zantac,Barrett's oesophagus,864,6.56,4.53e-263,,,False,,False,1,Low — ROR only
+jardiance,Umbilical hernia,139,6.54,1.65e-97,,,False,,False,1,Low — ROR only
+humira,Bronchial hyperreactivity,96,6.47,1.72e-50,,,False,,False,1,Low — ROR only
+humira,Genital abscess,71,6.47,1.34e-37,,,False,,False,1,Low — ROR only
+zantac,Chronic myeloid leukaemia,141,6.46,1.14e-43,,,False,,False,1,Low — ROR only
+jardiance,Nasal disorder,25,6.44,5.8e-18,,,False,,False,1,Low — ROR only
+zantac,Polypectomy,117,6.43,2.38e-36,,,False,,False,1,Low — ROR only
+humira,Fracture delayed union,142,6.42,1.11e-73,,,False,,False,1,Low — ROR only
+humira,Pulmonary thrombosis,2165,6.42,0.0,,,False,,False,1,Low — ROR only
+jardiance,Eye operation,86,6.4,1.9800000000000001e-59,,,False,,False,1,Low — ROR only
+humira,Drooling,83,6.36,3.8e-43,,,False,,False,1,Low — ROR only
+humira,Colonoscopy,129,6.35,2.39e-66,,,False,,False,1,Low — ROR only
+humira,Cardiomegaly,326,6.35,7.33e-166,,,False,,False,1,Low — ROR only
+humira,Mycobacterium tuberculosis complex test positive,422,6.33,7.89e-214,,,False,,False,1,Low — ROR only
+humira,Restrictive pulmonary disease,31,6.33,1.19e-16,,,False,,False,1,Low — ROR only
+humira,Physical disability,434,6.32,2.37e-219,,,False,,False,1,Low — ROR only
+humira,Diabetic eye disease,30,6.32,4.08e-16,,,False,,False,1,Low — ROR only
+humira,Coronary arterial stent insertion,337,6.31,1.9499999999999997e-170,,,False,,False,1,Low — ROR only
+humira,Neuroma,58,6.3,3e-30,,,False,,False,1,Low — ROR only
+humira,Ovarian neoplasm,87,6.3,7.4e-45,,,False,,False,1,Low — ROR only
+humira,Adenoma benign,58,6.3,3e-30,,,False,,False,1,Low — ROR only
+jardiance,Pigmentation disorder,134,6.3,1.52e-90,,,False,,False,1,Low — ROR only
+humira,Neurogenic bladder,56,6.29,3.5e-29,,,False,,False,1,Low — ROR only
+humira,Post procedural inflammation,350,6.29,1.71e-176,,,False,,False,1,Low — ROR only
+zantac,Gastrointestinal stromal tumour,519,6.29,3.28e-154,,,False,,False,1,Low — ROR only
+humira,Laryngeal disorder,775,6.24,0.0,,,False,,False,1,Low — ROR only
+humira,Fungal pharyngitis,62,6.24,5.740000000000001e-32,,,False,,False,1,Low — ROR only
+jardiance,Pancreatic carcinoma,130,6.24,5.65e-87,,,False,,False,1,Low — ROR only
+humira,Optic nerve disorder,37,6.23,1.87e-19,,,False,,False,1,Low — ROR only
+humira,Excessive skin,83,6.22,2.56e-42,,,False,,False,1,Low — ROR only
+humira,Sports injury,48,6.22,6.43e-25,,,False,,False,1,Low — ROR only
+humira,Investigation abnormal,487,6.2,4.839999999999999e-242,,,False,,False,1,Low — ROR only
+humira,Electrolyte depletion,81,6.2,2.96e-41,,,False,,False,1,Low — ROR only
+jardiance,Diabetic retinopathy,49,6.2,3.74e-33,,,False,,False,1,Low — ROR only
+zantac,Laryngeal disorder,72,6.19,2.93e-22,,,False,,False,1,Low — ROR only
+humira,Angiosarcoma,32,6.16,8.82e-17,,,False,,False,1,Low — ROR only
+humira,Blood glucose abnormal,478,6.16,4.7399999999999994e-236,,,False,,False,1,Low — ROR only
+humira,Catheterisation cardiac,221,6.15,8.72e-110,,,False,,False,1,Low — ROR only
+humira,Blood folate decreased,30,6.13,1.03e-15,,,False,,False,1,Low — ROR only
+humira,CNS ventriculitis,29,6.11,3.54e-15,,,False,,False,1,Low — ROR only
+humira,Cerebral disorder,390,6.11,1.5899999999999998e-191,,,False,,False,1,Low — ROR only
+zantac,Perfume sensitivity,100,6.11,3.26e-30,,,False,,False,1,Low — ROR only
+humira,Prerenal failure,76,6.1,3.39e-38,,,False,,False,1,Low — ROR only
+humira,Arteriospasm coronary,28,6.09,1.21e-14,,,False,,False,1,Low — ROR only
+humira,Cervical vertebral fracture,441,6.05,1.81e-214,,,False,,False,1,Low — ROR only
+humira,Immunoglobulins increased,35,6.05,5.49e-18,,,False,,False,1,Low — ROR only
+humira,Cytology abnormal,51,6.03,1.03e-25,,,False,,False,1,Low — ROR only
+humira,Pelvic mass,34,6.03,1.87e-17,,,False,,False,1,Low — ROR only
+humira,Pneumoperitoneum,25,6.02,4.88e-13,,,False,,False,1,Low — ROR only
+jardiance,Hypernatraemia,96,5.99,8.57e-62,,,False,,False,1,Low — ROR only
+humira,Biliary tract disorder,79,5.98,5.38e-39,,,False,,False,1,Low — ROR only
+humira,Thyroxine decreased,63,5.98,2.67e-31,,,False,,False,1,Low — ROR only
+humira,Breast ulceration,29,5.92,8.67e-15,,,False,,False,1,Low — ROR only
+humira,Complex regional pain syndrome,64,5.91,1.9300000000000002e-31,,,False,,False,1,Low — ROR only
+humira,Delivery,28,5.9,2.96e-14,,,False,,False,1,Low — ROR only
+jardiance,Adrenal insufficiency,341,5.89,2.74e-212,,,False,,False,1,Low — ROR only
+humira,Tumour marker increased,41,5.88,2.1e-20,,,False,,False,1,Low — ROR only
+zantac,Metastatic neoplasm,186,5.88,1.18e-53,,,False,,False,1,Low — ROR only
+humira,Cartilage injury,753,5.87,0.0,,,False,,False,1,Low — ROR only
+humira,Large granular lymphocytosis,40,5.86,7.11e-20,,,False,,False,1,Low — ROR only
+humira,Large intestinal ulcer haemorrhage,32,5.83,5.25e-16,,,False,,False,1,Low — ROR only
+zantac,Brain injury,739,5.82,1.9599999999999997e-207,,,False,,False,1,Low — ROR only
+humira,Retinal injury,31,5.8,1.78e-15,,,False,,False,1,Low — ROR only
+humira,Intestinal fistula infection,49,5.79,6.92e-24,,,False,,False,1,Low — ROR only
+humira,Hepatitis A,30,5.78,6.06e-15,,,False,,False,1,Low — ROR only
+humira,Vascular occlusion,136,5.76,4.27e-64,,,False,,False,1,Low — ROR only
+humira,Optic atrophy,29,5.75,2.06e-14,,,False,,False,1,Low — ROR only
+humira,Pulmonary hypertension,410,5.74,5.37e-190,,,False,,False,1,Low — ROR only
+humira,Blood calcium increased,201,5.74,9.25e-94,,,False,,False,1,Low — ROR only
+humira,Heart valve incompetence,460,5.74,7.32e-213,,,False,,False,1,Low — ROR only
+jardiance,Cardiac discomfort,35,5.73,4.75e-22,,,False,,False,1,Low — ROR only
+humira,Tuberculin test positive,515,5.72,3.18e-237,,,False,,False,1,Low — ROR only
+humira,Abdominal wall cyst,27,5.69,2.36e-13,,,False,,False,1,Low — ROR only
+humira,Joint arthroplasty,1308,5.69,0.0,,,False,,False,1,Low — ROR only
+humira,Chronic inflammatory demyelinating polyradiculoneuropathy,38,5.69,1.92e-18,,,False,,False,1,Low — ROR only
+humira,Abnormal weight gain,49,5.69,1.6299999999999997e-23,,,False,,False,1,Low — ROR only
+humira,Vascular rupture,224,5.68,3.17e-103,,,False,,False,1,Low — ROR only
+humira,Tongue neoplasm malignant stage unspecified,63,5.66,8.700000000000001e-30,,,False,,False,1,Low — ROR only
+humira,Benign ovarian tumour,31,5.65,4.16e-15,,,False,,False,1,Low — ROR only
+humira,Genital discomfort,31,5.65,4.16e-15,,,False,,False,1,Low — ROR only
+humira,Lymphadenectomy,80,5.62,2.9300000000000002e-37,,,False,,False,1,Low — ROR only
+humira,Mediastinal mass,35,5.62,7.37e-17,,,False,,False,1,Low — ROR only
+humira,Incisional drainage,40,5.62,3.91e-19,,,False,,False,1,Low — ROR only
+humira,International normalised ratio fluctuation,1355,5.61,0.0,,,False,,False,1,Low — ROR only
+humira,Nail growth abnormal,73,5.59,5.989999999999999e-34,,,False,,False,1,Low — ROR only
+humira,Intraductal papilloma of breast,39,5.59,1.31e-18,,,False,,False,1,Low — ROR only
+humira,Visual field defect,223,5.59,3.1000000000000004e-101,,,False,,False,1,Low — ROR only
+jardiance,Bronchiectasis,218,5.59,1.35e-128,,,False,,False,1,Low — ROR only
+jardiance,Hysterectomy,37,5.59,1.1e-22,,,False,,False,1,Low — ROR only
+humira,Blood iron abnormal,1411,5.58,0.0,,,False,,False,1,Low — ROR only
+humira,Myocardial injury,29,5.58,4.74e-14,,,False,,False,1,Low — ROR only
+humira,Completed suicide,86,5.57,1.1099999999999999e-39,,,False,,False,1,Low — ROR only
+humira,Carbon dioxide decreased,86,5.57,1.1099999999999999e-39,,,False,,False,1,Low — ROR only
+humira,Concomitant disease progression,33,5.56,8.35e-16,,,False,,False,1,Low — ROR only
+humira,Breast calcifications,71,5.56,6.71e-33,,,False,,False,1,Low — ROR only
+humira,Blindness transient,247,5.55,3.02e-111,,,False,,False,1,Low — ROR only
+jardiance,Product physical consistency issue,29,5.53,1e-17,,,False,,False,1,Low — ROR only
+humira,Cerebellar stroke,63,5.51,4.5800000000000004e-29,,,False,,False,1,Low — ROR only
+humira,Gastric fistula,27,5.51,5.38e-13,,,False,,False,1,Low — ROR only
+humira,Overweight,614,5.5,7.89e-272,,,False,,False,1,Low — ROR only
+humira,Oligomenorrhoea,53,5.5,1.5499999999999998e-24,,,False,,False,1,Low — ROR only
+zantac,Squamous cell carcinoma,722,5.5,3.24e-194,,,False,,False,1,Low — ROR only
+humira,Enzyme abnormality,66,5.49,2.79e-30,,,False,,False,1,Low — ROR only
+humira,Intra-abdominal haemorrhage,35,5.49,1.67e-16,,,False,,False,1,Low — ROR only
+humira,Vaginal cancer,35,5.49,1.67e-16,,,False,,False,1,Low — ROR only
+jardiance,Pruritus genital,179,5.48,2.1700000000000001e-103,,,False,,False,1,Low — ROR only
+humira,Central nervous system vasculitis,43,5.47,5.32e-20,,,False,,False,1,Low — ROR only
+humira,Tooth loss,535,5.46,1.1400000000000001e-235,,,False,,False,1,Low — ROR only
+humira,Blood glucose fluctuation,153,5.46,2.87e-68,,,False,,False,1,Low — ROR only
+humira,Scoliosis,1270,5.45,0.0,,,False,,False,1,Low — ROR only
+humira,H1N1 influenza,38,5.45,9.95e-18,,,False,,False,1,Low — ROR only
+humira,Skin lesion inflammation,25,5.43,6.08e-12,,,False,,False,1,Low — ROR only
+humira,Pharyngeal inflammation,191,5.43,1.55e-84,,,False,,False,1,Low — ROR only
+zantac,Mast cell activation syndrome,77,5.43,1.1200000000000002e-21,,,False,,False,1,Low — ROR only
+humira,Penis disorder,45,5.42,1.07e-20,,,False,,False,1,Low — ROR only
+jardiance,Anion gap increased,28,5.41,9.36e-17,,,False,,False,1,Low — ROR only
+humira,Gingival injury,28,5.39,3.56e-13,,,False,,False,1,Low — ROR only
+zantac,Chronic lymphocytic leukaemia,432,5.38,8.85e-115,,,False,,False,1,Low — ROR only
+humira,Gastric haemorrhage,474,5.37,2.25e-205,,,False,,False,1,Low — ROR only
+humira,Cardiac dysfunction,256,5.36,2.41e-111,,,False,,False,1,Low — ROR only
+humira,Polyarteritis nodosa,27,5.35,1.19e-12,,,False,,False,1,Low — ROR only
+humira,Bundle branch block right,61,5.34,2.5200000000000003e-27,,,False,,False,1,Low — ROR only
+humira,Transplant rejection,83,5.33,1.03e-36,,,False,,False,1,Low — ROR only
+humira,Joint contracture,30,5.32,6.96e-14,,,False,,False,1,Low — ROR only
+zantac,Mastocytosis,58,5.32,2.36e-16,,,False,,False,1,Low — ROR only
+humira,Post-traumatic pain,100,5.31,7.87e-44,,,False,,False,1,Low — ROR only
+humira,Device related sepsis,62,5.29,1.67e-27,,,False,,False,1,Low — ROR only
+humira,Small intestinal perforation,147,5.27,1.9999999999999999e-63,,,False,,False,1,Low — ROR only
+humira,Internal haemorrhage,678,5.26,5.679999999999999e-287,,,False,,False,1,Low — ROR only
+humira,Allergic cough,202,5.26,1.86e-86,,,False,,False,1,Low — ROR only
+humira,Peripheral artery thrombosis,110,5.26,1.17e-47,,,False,,False,1,Low — ROR only
+jardiance,Insulin-like growth factor increased,71,5.25,9e-40,,,False,,False,1,Low — ROR only
+humira,Eyelid cyst,28,5.24,7.7e-13,,,False,,False,1,Low — ROR only
+humira,Malignant polyp,42,5.24,8.52e-19,,,False,,False,1,Low — ROR only
+humira,Small cell lung cancer,28,5.24,7.7e-13,,,False,,False,1,Low — ROR only
+zantac,Disease progression,6461,5.23,0.0,,,False,,False,1,Low — ROR only
+humira,Application site pruritus,27,5.2,2.56e-12,,,False,,False,1,Low — ROR only
+zantac,Carcinoid tumour of the small bowel,66,5.18,4.1e-18,,,False,,False,1,Low — ROR only
+humira,Craniofacial fracture,56,5.17,2.14e-24,,,False,,False,1,Low — ROR only
+jardiance,Abnormal loss of weight,119,5.16,1.6e-64,,,False,,False,1,Low — ROR only
+jardiance,Lymphopenia,108,5.16,9.69e-59,,,False,,False,1,Low — ROR only
+zantac,Injury,9209,5.13,0.0,,,False,,False,1,Low — ROR only
+humira,Device expulsion,41,5.12,5.97e-18,,,False,,False,1,Low — ROR only
+humira,Pancreatitis relapsing,25,5.11,2.8e-11,,,False,,False,1,Low — ROR only
+humira,Haemorrhoids thrombosed,53,5.1,7.55e-23,,,False,,False,1,Low — ROR only
+humira,Essential tremor,37,5.09,3.31e-16,,,False,,False,1,Low — ROR only
+jardiance,Product colour issue,53,5.09,7.75e-29,,,False,,False,1,Low — ROR only
+humira,Malignant melanoma in situ,52,5.08,2.47e-22,,,False,,False,1,Low — ROR only
+humira,Noninfective encephalitis,76,5.07,4.22e-32,,,False,,False,1,Low — ROR only
+humira,Meniere's disease,124,5.06,1.41e-51,,,False,,False,1,Low — ROR only
+humira,End stage renal disease,173,5.05,3.28e-71,,,False,,False,1,Low — ROR only
+humira,Lyme disease,1461,5.04,0.0,,,False,,False,1,Low — ROR only
+jardiance,Thirst,311,5.04,5.29e-162,,,False,,False,1,Low — ROR only
+humira,Spinal cord infection,62,5.03,3.41e-26,,,False,,False,1,Low — ROR only
+zantac,Plasma cell myeloma,2255,5.03,0.0,,,False,,False,1,Low — ROR only
+jardiance,Vascular graft,38,5.03,1.06e-20,,,False,,False,1,Low — ROR only
+humira,Mesenteric vein thrombosis,41,5.02,1.24e-17,,,False,,False,1,Low — ROR only
+humira,Suicidal behaviour,32,5.02,6.02e-14,,,False,,False,1,Low — ROR only
+jardiance,Skin injury,26,5.02,2.11e-14,,,False,,False,1,Low — ROR only
+humira,Terminal state,811,5.01,0.0,,,False,,False,1,Low — ROR only
+humira,Haemangioma of liver,75,5.0,2.8600000000000003e-31,,,False,,False,1,Low — ROR only
