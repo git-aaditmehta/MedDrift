@@ -1,14 +1,14 @@
-drug_name,reaction,ROR,quarters_available,alert_quarters,max_ewma,ewma_signal
-zantac,Colorectal cancer,4851.89,156,33,1009.2,True
-zantac,Bladder cancer,1286.7,147,19,1097.72,True
-zantac,Gastrointestinal carcinoma,916.68,122,34,190.9,True
-zantac,Prostate cancer,810.49,149,18,1168.67,True
-zantac,Renal cancer,722.43,145,30,789.18,True
-humira,Injection site papule,120.78,35,0,151.6,False
-jardiance,Ketoacidosis,120.41,28,0,43.4,False
-humira,Adverse food reaction,64.91,29,0,122.2,False
-jardiance,Glucose urine present,55.68,19,0,11.48,False
-humira,Device issue,51.33,52,1,966.2,True
-humira,Medical device implantation,49.76,27,0,33.2,False
-jardiance,Urine ketone body present,43.92,19,0,4.91,False
-jardiance,Euglycaemic diabetic ketoacidosis,39.34,28,7,37.02,True
+drug_name,reaction,ROR,alert_quarters,max_ewma,ewma_signal
+zantac,Colorectal cancer,4851.89,33,1009.2,True
+zantac,Bladder cancer,1286.7,19,1097.72,True
+zantac,Gastrointestinal carcinoma,916.68,34,190.9,True
+zantac,Prostate cancer,810.49,18,1168.67,True
+zantac,Renal cancer,722.43,30,789.18,True
+humira,Injection site papule,120.78,0,151.6,False
+jardiance,Ketoacidosis,120.41,0,43.4,False
+humira,Adverse food reaction,64.91,0,122.2,False
+jardiance,Glucose urine present,55.68,0,11.48,False
+humira,Device issue,51.33,1,966.2,True
+humira,Medical device implantation,49.76,0,33.2,False
+jardiance,Urine ketone body present,43.92,0,4.91,False
+jardiance,Euglycaemic diabetic ketoacidosis,39.34,7,37.02,True

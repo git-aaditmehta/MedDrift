@@ -20,3 +20,7 @@ seaborn==0.12.2           # cleaner statistical plots for EDA
 # Utility
 tqdm==4.66.1              # progress bars for long ETL runs
 python-dotenv==1.0.0      # load sensitive config from .env file
+
+plotly==5.18.0
+kaleido==0.2.1
+pycountry==26.2.16
